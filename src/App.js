@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+// IMPORTS
+
 import './App.css';
+import React, { useState } from "react"
+
+import { Syam } from './components/Syam';
+
 
 function App() {
+
+  //REACTJS/JAVASCRIPT
+
+  
   return (
+
+    //JSX-JAVASCRIPT XML
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+     <Syam></Syam>
+     
     </div>
   );
 }
